@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="simple-line-icons/simple-line-icons.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="swiper/css/swiper.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+    <link rel="shortcut icon" type="image/png" href="img/logo-dark.png" />
+    <title>Sign Up</title>
+  </head>
+
+  <body>
+    <header class="header navbar-fixed-top">
+      <!-- Navbar -->
+      <nav class="navbar" role="navigation">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="menu-container">
+            <button
+              type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target=".nav-collapse"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="toggle-icon"></span>
+            </button>
+
+            <!-- Logo -->
+            <div class="logo">
+              <a class="logo-wrap" href="#">
+                <img
+                  class="logo-img logo-img-main"
+                  src="img/logo.png"
+                  alt="Asentus Logo"
+                />
+                <img
+                  class="logo-img logo-img-active"
+                  src="img/logo-dark.png"
+                  alt="Asentus Logo"
+                />
+              </a>
+            </div>
+            <!-- End Logo -->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse nav-collapse">
+            <div class="menu-container">
+              <ul class="navbar-nav navbar-nav-right">
+                <li class="nav-item">
+                  <a class="nav-item-child nav-item-hover" href="index.html"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item-child nav-item-hover" href="about.html"
+                    >About</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-item-login nav-item-hover" href="login.html"
+                    >Login</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-item-signin nav-item-hover active"
+                    href="register.html"
+                    >Register</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- End Navbar Collapse -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+    <div class="container-fluid" style="margin-top: 125px">
+      <div class="row"></div>
+    </div>
+
+    <div class="login">
+      <div class="login__content">
+        <div class="login__img">
+          <img src="img/img-login.svg" alt="" />
+        </div>
+
+        <!--Untuk Register-->
+        <div class="login__forms">
+          <form action="#" method="POST" class="login__create" id="login-up">
+            <h1 class="login__title">Daftar Akun</h1>
+
+            <div class="login__box">
+              <i class="bx bx-user login__icon"></i>
+              <input
+                type="text"
+                name="username"
+                placeholder="Username"
+                id="username"
+                class="login__input"
+              />
+            </div>
+
+            <div class="login__box">
+              <i class="bx bx-user login__icon"></i>
+              <input
+                type="text"
+                name="nama"
+                placeholder="Nama"
+                id="nama"
+                class="login__input"
+              />
+            </div>
+
+            <div class="login__box">
+              <i class="bx bx-at login__icon"></i>
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                id="email"
+                class="login__input"
+              />
+            </div>
+
+            <div class="login__box">
+              <i class="bx bx-lock-alt login__icon"></i>
+              <input
+                type="password"
+                placeholder="Password"
+                name="password"
+                id="password"
+                class="login__input"
+              />
+            </div>
+
+            <button name="submit" class="login__button">Daftar</button>
+
+            <div>
+              <span class="login__account">Sudah Punya Akun ?</span>
+              <a href="login.html"
+                ><span class="login__signin" id="sign-up">Login</span></a
+              >
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--===== MAIN JS =====-->
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="js/main.js"></script>
+    <script src="jquery/jquery.min.js" type="text/javascript"></script>
+    <script src="jquery/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="jquery/jquery.easing.js" type="text/javascript"></script>
+    <script src="jquery/jquery.back-to-top.js" type="text/javascript"></script>
+    <script
+      src="jquery/jquery.smooth-scroll.js"
+      type="text/javascript"
+    ></script>
+    <script src="jquery/jquery.wow.min.js" type="text/javascript"></script>
+    <script
+      src="masonry/imagesloaded.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="masonry/jquery.masonry.pkgd.min.js"
+      type="text/javascript"
+    ></script>
+    <script
+      src="swiper/js/swiper.jquery.min.js"
+      type="text/javascript"
+    ></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+    <script src="js/components/swiper.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+  </body>
+</html>
